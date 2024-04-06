@@ -1,7 +1,7 @@
-import autoComplete from '../src'
+import autoComplete from "../src";
 
 autoComplete({
-  data: () => [{ name: 'pizza' }, { name: 'hot dog' }],
-  element: '#autocomplete',
-  keys: ['name']
-})
+	data: () => [{ name: "pizza" }, { name: "hot dog" }],
+	element: "#autocomplete",
+	keys: ["name"],
+});

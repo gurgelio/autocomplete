@@ -1,26 +1,24 @@
 {
-  "name": "@gurgel.io/autocomplete",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "files": [
-    "dist",
-    "index.d.ts"
-  ],
-  "main": "./dist/index.umd.cjs",
-  "module": "./dist/index.js",
-  "types": "./index.d.ts",
-  "exports": {
-    "types": "./index.d.ts",
-    "import": "./dist/index.js",
-    "require": "./dist/index.umd.cjs"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build"
-  },
-  "devDependencies": {
-    "typescript": "^5.3.3",
-    "vite": "^5.0.10"
-  }
+	"name": "@gurgel.io/autocomplete",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"files": ["dist", "index.d.ts"],
+	"main": "./dist/index.umd.cjs",
+	"module": "./dist/index.js",
+	"types": "./index.d.ts",
+	"exports": {
+		"types": "./index.d.ts",
+		"import": "./dist/index.js",
+		"require": "./dist/index.umd.cjs"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.6.4",
+		"typescript": "^5.3.3",
+		"vite": "^5.0.10"
+	}
 }
